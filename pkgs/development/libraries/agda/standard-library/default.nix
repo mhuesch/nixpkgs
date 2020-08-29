@@ -2,6 +2,7 @@
 
 mkDerivation rec {
   pname = "standard-library";
+  version = "master";
 
   src = fetchFromGitHub {
     repo = "agda-stdlib";
